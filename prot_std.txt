@@ -1,0 +1,1162 @@
+root@DESKTOP-SSF293E:~# ssh dennismandere@sc.rc.usf.edu
+
+              University of South Florida - Research Computing
+      Central Instructional and Research Computing Environment (CIRCE)
+
+      WARNING: UNAUTHORIZED ACCESS TO THIS SYSTEM IS PROHIBITED BY LAW
+
+ By accessing the CIRCE cluster, you are agreeing to comply with the Terms of
+ Service, USF's Privacy Policy, and any other guidelines posted on our website:
+ https://wiki.rc.usf.edu/index.php/TOS
+
+
+dennismandere@sc.rc.usf.edu's password:
+Last login: Mon Apr 17 21:39:07 2023 from 35.142.12.172
+   Documentation:  https://wiki.rc.usf.edu
+         Support:  rc-help@usf.edu
+           Phone:  813-974-1222
+
+    To change your password or to recover a lost password, please visit
+                           https://netid.usf.edu
+
+    Please report any and all problems to the Helpdesk at rc-help@usf.edu
+                so we can track your incident!
+
+
+
+
+-bash: conda: command not found
+(base) [dennismandere@sclogin2 ~]$ conda activate prot_study
+(prot_study) [dennismandere@sclogin2 ~]$ ls
+ChipSeqAnalysis                                                 MACSpeaks_peaks.narrowPeak.disToGene  protein_analysis
+GRCH38_genomeFile                                               bin                                   run.err
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bed       deno.txt                              run.out
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bed.gz.1  genomeTrain                           run.sh
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bedpwd    hiC_GSE77565                          test (1).sam
+Genomics_Training                                               hiC_GSE77565.fdr.pick                 test_GSE77565
+Genomics_Training.tar.gz                                        human_GRCH38_genomeFile               vim_test.txt
+Groupproject                                                    mapping_Bowtie.sh
+(prot_study) [dennismandere@sclogin2 ~]$ dpkg -s package-name
+-bash: dpkg: command not found
+(prot_study) [dennismandere@sclogin2 ~]$ dpkg -s package-name
+-bash: dpkg: command not found
+(prot_study) [dennismandere@sclogin2 ~]$ ls
+ChipSeqAnalysis                                                 MACSpeaks_peaks.narrowPeak.disToGene  protein_analysis
+GRCH38_genomeFile                                               bin                                   run.err
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bed       deno.txt                              run.out
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bed.gz.1  genomeTrain                           run.sh
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bedpwd    hiC_GSE77565                          test (1).sam
+Genomics_Training                                               hiC_GSE77565.fdr.pick                 test_GSE77565
+Genomics_Training.tar.gz                                        human_GRCH38_genomeFile               vim_test.txt
+Groupproject                                                    mapping_Bowtie.sh
+(prot_study) [dennismandere@sclogin2 ~]$ cd protein_analysis
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ ls
+GENN+ASAquick  MMseqs
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cd GENN+ASAquick
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ ls
+16VPA.dsspget  ASAquick  GENN  LICENSE  MMseqs  README  bin  gennstld  install  run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ cd bin
+(prot_study) [dennismandere@sclogin2 bin]$ ls
+ASAquick          genn2inst.e  mkaacomp      mkblosnorm   mkminmax2asa  pdb2dsspget.pl
+fasta2dsspget.pl  genn2wind.e  mkasa.minmax  mkdimercomp  mkphyspar
+(prot_study) [dennismandere@sclogin2 bin]$ cd ..
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ cd MMseqs/
+(prot_study) [dennismandere@sclogin2 MMseqs]$ cd dataset
+-bash: cd: dataset: No such file or directory
+(prot_study) [dennismandere@sclogin2 MMseqs]$ ls
+(prot_study) [dennismandere@sclogin2 MMseqs]$ ls
+(prot_study) [dennismandere@sclogin2 MMseqs]$ cd protein_analysis
+-bash: cd: protein_analysis: No such file or directory
+(prot_study) [dennismandere@sclogin2 MMseqs]$ cd ~
+(prot_study) [dennismandere@sclogin2 ~]$ cd protein_analysis
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cd MMseqs/
+(prot_study) [dennismandere@sclogin2 MMseqs]$ cd dataset/
+(prot_study) [dennismandere@sclogin2 dataset]$ gzip –d ref_protein_seq.fasta.gz
+gzip: –d: No such file or directory
+gzip: ref_protein_seq.fasta.gz: No such file or directory
+(prot_study) [dennismandere@sclogin2 dataset]$ ls
+ref_protein_seq.fasta  ref_protein_seq.fasta (1).gz
+(prot_study) [dennismandere@sclogin2 dataset]$ gzip -d ref_protein_seq.fasta (1).gz
+-bash: syntax error near unexpected token `('
+(prot_study) [dennismandere@sclogin2 dataset]$ ls
+ref_protein_seq.fasta  ref_protein_seq.fasta.gz
+(prot_study) [dennismandere@sclogin2 dataset]$ gzip -d ref_protein_seq.fasta.gz
+gzip: ref_protein_seq.fasta already exists; do you wish to overwrite (y or n)? y
+(prot_study) [dennismandere@sclogin2 dataset]$ ls
+ref_protein_seq.fasta
+(prot_study) [dennismandere@sclogin2 dataset]$ ls
+ref_protein_seq.fasta
+(prot_study) [dennismandere@sclogin2 dataset]$ cd GENN+ASAquick
+-bash: cd: GENN+ASAquick: No such file or directory
+(prot_study) [dennismandere@sclogin2 dataset]$ cd ~
+(prot_study) [dennismandere@sclogin2 ~]$ cd protein_analysis/
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick] v
+vacuumdb               vgdb                   vimdiff                vtkEncodeString-7.1    vtkWrapPython-7.1
+valgrind               vi                     vimtutor               vtkHashSource-7.1      vtkWrapPythonInit-7.1
+valgrind-di-server     view                   vlock                  vtkParseJava-7.1       vtkWrapTcl-7.1
+valgrind-listener      viewer.py              vmstat                 vtkWrapHierarchy-7.1   vtkWrapTclInit-7.1
+vdir                   vim                    vsyasm                 vtkWrapJava-7.1        vxloader
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ sbatch run_asaquick.sh
+Submitted batch job 8999
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cd MMseqs/
+(prot_study) [dennismandere@sclogin2 MMseqs]$ vim create_mmseqsDB.sh
+(prot_study) [dennismandere@sclogin2 MMseqs]$ vim create_mmseqsDB.sh
+(prot_study) [dennismandere@sclogin2 MMseqs]$ sbatch create_mmseqsDB.sh
+Submitted batch job 9001
+(prot_study) [dennismandere@sclogin2 MMseqs]$ vim run_mmseqs.sh
+(prot_study) [dennismandere@sclogin2 MMseqs]$ vim run_mmseqs.sh
+(prot_study) [dennismandere@sclogin2 MMseqs]$ vim run_mmseqs.sh
+(prot_study) [dennismandere@sclogin2 MMseqs]$ sbatch run_mmseqs.sh
+Submitted batch job 9005
+(prot_study) [dennismandere@sclogin2 MMseqs]$ ls
+P01160        P01160.pssm         dataset    resultDB  run.out        tmp
+P01160.fasta  create_mmseqsDB.sh  profileDB  run.err   run_mmseqs.sh
+(prot_study) [dennismandere@sclogin2 MMseqs]$ cd resultDB/
+(prot_study) [dennismandere@sclogin2 resultDB]$ ls
+resultDb  resultDb.dbtype  resultDb.index
+(prot_study) [dennismandere@sclogin2 resultDB]$ cd ..
+(prot_study) [dennismandere@sclogin2 MMseqs]$ cd ~
+(prot_study) [dennismandere@sclogin2 ~]$ cd protein_analysis/
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ ls
+GENN+ASAquick  MMseqs  format_results.py  run_parse.sh
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ ls -lh
+total 12K
+drwxr-x--- 6 dennismandere usfuser  13 Apr 17 23:38 GENN+ASAquick
+drwxr-x--- 7 dennismandere usfuser  11 Apr 18 00:19 MMseqs
+-rw-r----- 1 dennismandere usfuser 11K Apr 18 00:18 format_results.py
+-rw-r----- 1 dennismandere usfuser 487 Apr 18 00:18 run_parse.sh
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ mkdir pred_result
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ ls
+GENN+ASAquick  MMseqs  format_results.py  pred_result  run_parse.sh
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cp ./MMseqs/P01160.pssm ./pred_result
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cp ./asaquick/GENN+ASAquick/asaq.P01160.fasta/asaq.pred ./pred_result
+cp: cannot stat './asaquick/GENN+ASAquick/asaq.P01160.fasta/asaq.pred': No such file or directory
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ cd ASAquick
+(prot_study) [dennismandere@sclogin2 ASAquick]$ ls
+ASAq.wei  ASAquick  LICENSE  README  run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 ASAquick]$ cd .
+(prot_study) [dennismandere@sclogin2 ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ sbatch run_asaquick.sh
+Submitted batch job 9015
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ pwd
+/home/d/dennismandere/protein_analysis/GENN+ASAquick
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cd MMseqs/
+(prot_study) [dennismandere@sclogin2 MMseqs]$ sbatch create_mmseqsDB.sh
+Submitted batch job 9027
+(prot_study) [dennismandere@sclogin2 MMseqs]$ sbatch run_mmseqs.sh
+Submitted batch job 9028
+(prot_study) [dennismandere@sclogin2 MMseqs]$ cd ..
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ ls
+GENN+ASAquick  MMseqs  format_results.py  pred_result  run_parse.sh
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ sbatch run_asaquick.sh
+sbatch: error: Unable to open file run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cd GENN+ASAquick
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ sbatch run_asaquick.sh
+Submitted batch job 9030
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ cd ASAquick
+(prot_study) [dennismandere@sclogin2 ASAquick]$ ls
+ASAq.wei  ASAquick  LICENSE  README  run_asaquick.sh
+(prot_study) [dennismandere@sclogin2 ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cd pred_result/
+(prot_study) [dennismandere@sclogin2 pred_result]$ vim run_parse.sh
+(prot_study) [dennismandere@sclogin2 pred_result]$ ls
+P01160.pssm
+(prot_study) [dennismandere@sclogin2 pred_result]$ vim run_parse.sh
+(prot_study) [dennismandere@sclogin2 pred_result]$ vim run_parse.sh
+(prot_study) [dennismandere@sclogin2 pred_result]$ vim run_parse.sh
+(prot_study) [dennismandere@sclogin2 pred_result]$ sbatch run_parse.sh
+Submitted batch job 9033
+(prot_study) [dennismandere@sclogin2 pred_result]$ ls
+P01160.pssm  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin2 pred_result]$ cd ..
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cd ..
+(prot_study) [dennismandere@sclogin2 ~]$ cd protein_analysis/
+(prot_study) [dennismandere@sclogin2 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin2 GENN+ASAquick]$
+
+
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.90.1-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+This message is shown once a day. To disable it please create the
+/root/.hushlogin file.
+root@DESKTOP-SSF293E:~# ssh dennismandere@sc.rc.usf.edu
+
+              University of South Florida - Research Computing
+      Central Instructional and Research Computing Environment (CIRCE)
+
+      WARNING: UNAUTHORIZED ACCESS TO THIS SYSTEM IS PROHIBITED BY LAW
+
+ By accessing the CIRCE cluster, you are agreeing to comply with the Terms of
+ Service, USF's Privacy Policy, and any other guidelines posted on our website:
+ https://wiki.rc.usf.edu/index.php/TOS
+
+
+dennismandere@sc.rc.usf.edu's password:
+Connection closed by 131.247.188.140 port 22
+root@DESKTOP-SSF293E:~# ssh dennismandere@sc.rc.usf.edu
+
+              University of South Florida - Research Computing
+      Central Instructional and Research Computing Environment (CIRCE)
+
+      WARNING: UNAUTHORIZED ACCESS TO THIS SYSTEM IS PROHIBITED BY LAW
+
+ By accessing the CIRCE cluster, you are agreeing to comply with the Terms of
+ Service, USF's Privacy Policy, and any other guidelines posted on our website:
+ https://wiki.rc.usf.edu/index.php/TOS
+
+
+dennismandere@sc.rc.usf.edu's password:
+Last login: Wed Apr 12 12:53:13 2023 from 10.226.4.244
+   Documentation:  https://wiki.rc.usf.edu
+         Support:  rc-help@usf.edu
+           Phone:  813-974-1222
+
+    To change your password or to recover a lost password, please visit
+                           https://netid.usf.edu
+
+    Please report any and all problems to the Helpdesk at rc-help@usf.edu
+                so we can track your incident!
+
+
+
+
+-bash: conda: command not found
+(base) [dennismandere@sclogin0 ~]$ conda activate prot_study
+(prot_study) [dennismandere@sclogin0 ~]$ pwd
+/home/d/dennismandere
+(prot_study) [dennismandere@sclogin0 ~]$ cd protein_analysis/
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ mkdir asaquick
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sbatch run_asaquick.sh
+Submitted batch job 9040
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd asaquick/
+(prot_study) [dennismandere@sclogin0 asaquick]$ ls
+(prot_study) [dennismandere@sclogin0 asaquick]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd MMseqs/
+(prot_study) [dennismandere@sclogin0 MMseqs]$ ls
+P01160        P01160.pssm         dataset    resultDB  run.out        tmp
+P01160.fasta  create_mmseqsDB.sh  profileDB  run.err   run_mmseqs.sh
+(prot_study) [dennismandere@sclogin0 MMseqs]$ vim  run_mmseqs.sh
+(prot_study) [dennismandere@sclogin0 MMseqs]$ vim create_mmseqsDB.sh
+(prot_study) [dennismandere@sclogin0 MMseqs]$ vim run_mmseqs.sh
+(prot_study) [dennismandere@sclogin0 MMseqs]$ sbatch run_mmseqs.sh
+Submitted batch job 9041
+(prot_study) [dennismandere@sclogin0 MMseqs]$ ls
+P01160        P01160.pssm         dataset    resultDB  run.out        tmp
+P01160.fasta  create_mmseqsDB.sh  profileDB  run.err   run_mmseqs.sh
+(prot_study) [dennismandere@sclogin0 MMseqs]$ vim create_mmseqsDB.sh
+(prot_study) [dennismandere@sclogin0 MMseqs]$ sbatch create_mmseqsDB.sh
+Submitted batch job 9042
+(prot_study) [dennismandere@sclogin0 MMseqs]$ ls
+P01160        P01160.pssm         dataset    resultDB  run.out        tmp
+P01160.fasta  create_mmseqsDB.sh  profileDB  run.err   run_mmseqs.sh
+(prot_study) [dennismandere@sclogin0 MMseqs]$ cd P01160/
+(prot_study) [dennismandere@sclogin0 P01160]$ ls
+P01160  P01160.dbtype  P01160.index  P01160.lookup  P01160.source  P01160_h  P01160_h.dbtype  P01160_h.index
+(prot_study) [dennismandere@sclogin0 P01160]$ cd ..
+(prot_study) [dennismandere@sclogin0 MMseqs]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd pred_result/
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ cd pred_result/
+-bash: cd: pred_result/: No such file or directory
+(prot_study) [dennismandere@sclogin0 pred_result]$ cp ./asaquick/GENN+ASAquick/asaq.P01160.fasta/asaq.pred ./pred_resultcp: cannot stat './asaquick/GENN+ASAquick/asaq.P01160.fasta/asaq.pred': No such file or directory
+(prot_study) [dennismandere@sclogin0 pred_result]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ASAquick/
+(prot_study) [dennismandere@sclogin0 ASAquick]$ ls
+ASAq.wei  ASAquick  LICENSE  README  run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sbatch  run_asaquick.sh
+Submitted batch job 9043
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sbatch  run_asaquick.sh
+Submitted batch job 9044
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$  sbatch  run_asaquick.sh
+Submitted batch job 9045
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ squeue -u
+squeue: option requires an argument -- 'u'
+Try "squeue --help" for more information
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ squeue -u dennismandere
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ wget -c https://rest.uniprot.org/uniprotkb/P01160.fasta
+--2023-04-18 19:17:35--  https://rest.uniprot.org/uniprotkb/P01160.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./asaquick P01160.fasta
+-bash: ./asaquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ wget -c https://rest.uniprot.org/uniprotkb/P01160.fasta
+--2023-04-18 19:19:00--  https://rest.uniprot.org/uniprotkb/P01160.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cat P01160.fasta
+>sp|P01160|ANF_HUMAN Natriuretic peptides A OS=Homo sapiens OX=9606 GN=NPPA PE=1 SV=2
+MSSFSTTTVSFLLLLAFQLLGQTRANPMYNAVSNADLMDFKNLLDHLEEKMPLEDEVVPP
+QVLSEPNEEAGAALSPLPEVPPWTGEVSPAQRDGGALGRGPWDSSDRSALLKSKLRALLT
+APRSLRRSSCFGGRMDRIGAQSGLGCNSFRY
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sh run_asaquick.sh
+--2023-04-18 19:29:20--  https://rest.uniprot.org/uniprotkb/P01160.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+run_asaquick.sh: line 17: ./asaquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ ls
+GENN+ASAquick  MMseqs  asaquick  format_results.py  pred_result
+(prot_study) [dennismandere@sclogin0 protein_analysis]$  cd
+(prot_study) [dennismandere@sclogin0 ~]$ cd pred_result
+-bash: cd: pred_result: No such file or directory
+(prot_study) [dennismandere@sclogin0 ~]$ pwd
+/home/d/dennismandere
+(prot_study) [dennismandere@sclogin0 ~]$ cd protein_analysis/
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd pred_result/
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ vim pred_result
+(prot_study) [dennismandere@sclogin0 pred_result]$ vim pred_result.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ vim run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        README  gennstld  run.err  run_asaquick.sh
+ASAquick       LICENSE  P01160.fasta  bin     install   run.out
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd
+(prot_study) [dennismandere@sclogin0 ~]$ cd G
+GRCH38_genomeFile/ Genomics_Training/ Groupproject/
+(prot_study) [dennismandere@sclogin0 ~]$ cd protein_analysis/
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ASAquick
+(prot_study) [dennismandere@sclogin0 ASAquick]$ ls
+ASAq.wei  ASAquick  LICENSE  README  run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 ASAquick]$ cat README
+!       ASAquick V.1
+!       Eshel Faraggi 2013 (c)
+
+!       Research and Information Systems, LLC, Carmel, Indiana, 46032, USA
+!       www.mamiris.com
+!       Kloczkowski Lab, The Research Institute, Nationwide Children's Hospital, Columbus, Ohio, USA
+
+!!!!!!! All Rights Reserved !!!!!!!
+See license for what you can and cannot do with this software.
+
+ASAquick
+--------
+To run ASAquick use
+
+ASAquick your-file
+
+Where your-file is either a fasta file or a dsspget file. dsspget is our own personal system of recording the crystallographer index, amino acid type, 8-state-dssp-ss, 3-stat-dssp-ss, ASA, phi, psi. You can make such a file from a PDB file using pdb2dsspget.pl, or from a fasta file using fasta2dsspget.pl. Both programs are provided with this distribution and should be in your ~/bin/ and ready to use if installation completed successfully.
+
+LARGE DATA AMOUNTS
+------------------
+ASAquick was designed to predict one file at a time. Its pretty quick so you can analyze many proteins just using it. However, if you have large amounts of data it will be beneficial for you to go through the script of ASAquick and learn how to use genn2wind.e. Basically you type at prompt
+
+genn2wind.e -aw [ASAquickPATH]/ASAq.wei/list.weights -prl [your-protein-list] -d [/path/to/database/]
+
+[] here means that a human change is needed.
+
+This will generate the predictions quicker. You will need to generate a list of your protein ids and a database of the input/output files in directories named as your ids. See the ASAquick script to figure out which program produce what input/output.
+
+ENJOY!!!
+
+(prot_study) [dennismandere@sclogin0 ASAquick]$ ASAquick P01160.fasta
+-bash: /home/d/dennismandere/bin/ASAquick: Permission denied
+(prot_study) [dennismandere@sclogin0 ASAquick]$ ASAquick
+-bash: /home/d/dennismandere/bin/ASAquick: Permission denied
+(prot_study) [dennismandere@sclogin0 ASAquick]$ echo $PATH
+/home/d/dennismandere/.conda/envs/prot_study/bin:/apps/miniconda/3.6.1/bin:/usr/lib64/qt-3.3/bin:/bin:/usr/bin:/apps/bin:/home/d/dennismandere/.local/bin:/home/d/dennismandere/bin
+(prot_study) [dennismandere@sclogin0 ASAquick]$ asaquick
+-bash: asaquick: command not found
+(prot_study) [dennismandere@sclogin0 ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sh run_asaquick.sh
+--2023-04-18 20:04:55--  https://rest.uniprot.org/uniprotkb/P01160.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+run_asaquick.sh: line 17: ./ASAquick: Is a directory
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ asaquick
+-bash: asaquick: command not found
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./asaquick P01160.fasta
+-bash: ./asaquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./asaquick P01160.fasta
+-bash: ./asaquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd..
+-bash: cd..: command not found
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ~
+(prot_study) [dennismandere@sclogin0 ~]$ ls
+ChipSeqAnalysis                                                 Genomics_Training                     deno.txt                 mapping_Bowtie.sh  test (1).sam
+GRCH38_genomeFile                                               Genomics_Training.tar.gz              genomeTrain              protein_analysis   test_GSE77565
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bed       Groupproject                          hiC_GSE77565             run.err            vim_test.txt
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bed.gz.1  MACSpeaks_peaks.narrowPeak.disToGene  hiC_GSE77565.fdr.pick    run.out
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bedpwd    bin                                   human_GRCH38_genomeFile  run.sh
+(prot_study) [dennismandere@sclogin0 ~]$ cd protein_analysis/
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ ls
+GENN+ASAquick  MMseqs  asaquick  format_results.py  pred_result
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  ASAquick  GENN  LICENSE  MMseqs  P01160.fasta  README  bin  gennstld  install  run.err  run.out  run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ pwd
+/home/d/dennismandere/protein_analysis/GENN+ASAquick
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ASAquick/
+(prot_study) [dennismandere@sclogin0 ASAquick]$ pwd
+/home/d/dennismandere/protein_analysis/GENN+ASAquick/ASAquick
+(prot_study) [dennismandere@sclogin0 ASAquick]$ cd..
+-bash: cd..: command not found
+(prot_study) [dennismandere@sclogin0 ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  ASAquick  GENN  LICENSE  MMseqs  P01160.fasta  README  bin  gennstld  install  run.err  run.out  run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vi run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cat run_asaquick.sh
+#!/bin/bash
+
+#SBATCH --chdir=/home/d/dennismandere/protein_analysis/GENN+ASAquick
+#SBATCH --job-name=run_asaquick
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=10000
+#SBATCH -t 00:10:00
+#SBATCH -o run.out
+#SBATCH -e run.err
+#SBATCH --mail-user=dennismandere@mail.usf.edu
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=END
+#SBATCH --mail-type=FAIL
+
+wget -c https://rest.uniprot.org/uniprotkb/P01160.fasta
+/home/d/dennismandere/protein_analysis/GENN+ASAquick/ASAquick/asaquick P01160.fasta
+
+
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ /home/d/dennismandere/protein_analysis/GENN+ASAquick/ASAquick/asaquick P01160.fasta
+-bash: /home/d/dennismandere/protein_analysis/GENN+ASAquick/ASAquick/asaquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ /home/d/dennismandere/protein_analysis/GENN+ASAquick/ASAquick/asaquick
+-bash: /home/d/dennismandere/protein_analysis/GENN+ASAquick/ASAquick/asaquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./ASAquick/asaquick P01160.fasta
+-bash: ./ASAquick/asaquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./ASAquick/asaquick P01160.fasta
+-bash: ./ASAquick/asaquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ /ASAquick/asaquick P01160.fasta
+-bash: /ASAquick/asaquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./bin/ASAquick P01160.fasta
+-bash: ./bin/ASAquick: Permission denied
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ~
+(prot_study) [dennismandere@sclogin0 ~]$ ls
+ChipSeqAnalysis                                                 Genomics_Training                     deno.txt                 mapping_Bowtie.sh  test (1).sam
+GRCH38_genomeFile                                               Genomics_Training.tar.gz              genomeTrain              protein_analysis   test_GSE77565
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bed       Groupproject                          hiC_GSE77565             run.err            vim_test.txt
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bed.gz.1  MACSpeaks_peaks.narrowPeak.disToGene  hiC_GSE77565.fdr.pick    run.out
+GSE77565_Evolloci_interacting_region_enhctrl_FBD1_FDR.bedpwd    bin                                   human_GRCH38_genomeFile  run.sh
+(prot_study) [dennismandere@sclogin0 ~]$ cd bin
+(prot_study) [dennismandere@sclogin0 bin]$ ls
+ASAquick  fasta2dsspget.pl  genn2inst.e  genn2wind.e  mkaacomp  mkasa.minmax  mkblosnorm  mkdimercomp  mkminmax2asa  mkphyspar  pdb2dsspget.pl
+(prot_study) [dennismandere@sclogin0 bin]$ pwd
+/home/d/dennismandere/bin
+(prot_study) [dennismandere@sclogin0 bin]$ cd ASAquick
+-bash: cd: ASAquick: Not a directory
+(prot_study) [dennismandere@sclogin0 bin]$ iwget -c https://rest.uniprot.org/uniprotkb/P01160.fasta
+-bash: iwget: command not found
+(prot_study) [dennismandere@sclogin0 bin]$ ./bin/ASAquick P01160.fasta
+-bash: ./bin/ASAquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 bin]$ wget -c https://rest.uniprot.org/uniprotkb/P01160.fasta
+--2023-04-18 20:30:13--  https://rest.uniprot.org/uniprotkb/P01160.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 240 [text/plain]
+Saving to: 'P01160.fasta'
+
+P01160.fasta                              100%[=====================================================================================>]     240  --.-KB/s    in 0s
+
+2023-04-18 20:30:14 (43.6 MB/s) - 'P01160.fasta' saved [240/240]
+
+(prot_study) [dennismandere@sclogin0 bin]$ ./bin/ASAquick P01160.fasta
+-bash: ./bin/ASAquick: No such file or directory
+(prot_study) [dennismandere@sclogin0 bin]$ cd protein_analysis
+-bash: cd: protein_analysis: No such file or directory
+(prot_study) [dennismandere@sclogin0 bin]$ cd ..
+(prot_study) [dennismandere@sclogin0 ~]$ cd protein_analysis
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ ls
+GENN+ASAquick  MMseqs  asaquick  format_results.py  pred_result
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd GENN+ASAquick
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  ASAquick  GENN  LICENSE  MMseqs  P01160.fasta  README  bin  gennstld  install  run.err  run.out  run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ pwd
+/home/d/dennismandere/protein_analysis/GENN+ASAquick
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vi run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sh run_asaquick.sh
+--2023-04-18 20:35:03--  https://rest.uniprot.org/uniprotkb/P01160.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+run_asaquick.sh: line 18: ./bin/ASAquick: Permission denied
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ASAquick
+-bash: /home/d/dennismandere/bin/ASAquick: Permission denied
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ASAquick
+-bash: /home/d/dennismandere/bin/ASAquick: Permission denied
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sh run_asaquick.sh
+ [dennismandere@sclogin0 GENN+ASAquick]$ pwd--2023-04-18 20:36:48--  https://rest.uniprot.org/uniprotkb/P01160.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+run_asaquick.sh: line 18: ./bin/ASAquick: Permission denied
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ (prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ pwd
+-bash: syntax error near unexpected token `[dennismandere@sclogin0'
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ pwd
+/home/d/dennismandere/protein_analysis/GENN+ASAquick
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sbatch run_asaquick.sh
+Submitted batch job 9046
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  ASAquick  GENN  LICENSE  MMseqs  P01160.fasta  README  bin  gennstld  install  run.err  run.out  run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ chmod +x ./bin/ASAquick
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ chmod +x ./bin/ASAquick
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ chmod +x ./bin/ASAquick
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sbatch run_asaquick.sh
+Submitted batch job 9047
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  ASAquick  GENN  LICENSE  MMseqs  P01160.fasta  README  asaq.P01160.fasta  bin  gennstld  install  run.err  run.out  run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd asaq.P01160.fasta
+(prot_study) [dennismandere@sclogin0 asaq.P01160.fasta]$ ls
+asa2minmax  asaq.pred  blosnorm  dsspget  genn.gin  physpar  rasaq.pred
+(prot_study) [dennismandere@sclogin0 asaq.P01160.fasta]$ cd ..
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd pred_result/
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cp ./asaquick/GENN+ASAquick/asaq.P01160.fasta/asaq.pred ./pred_result
+cp: cannot stat './asaquick/GENN+ASAquick/asaq.P01160.fasta/asaq.pred': No such file or directory
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cp ./GENN+ASAquick/asaq.P01160.fasta/asaq.pred ./pred_result
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd pred_result/
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  asaq.pred  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ run_parse.sh
+-bash: run_parse.sh: command not found
+(prot_study) [dennismandere@sclogin0 pred_result]$ vim run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ sbatch run_parse.sh
+Submitted batch job 9048
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  asaq.pred  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  asaq.pred  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ vim run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ vim run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ sbatch run_parse.sh
+Submitted batch job 9056
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  asaq.pred  format_results.py  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ cat run_parse.sh
+#!/bin/bash
+
+#SBATCH --chdir=/home/d/dennismandere/protein_analysis/pred_result
+#SBATCH --job-name=run_parse
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=10000
+#SBATCH -t 00:10:00
+#SBATCH -o run.out
+#SBATCH -e run.err
+#SBATCH --mail-user=dennismandere@mail.usf.edu
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=END
+#SBATCH --mail-type=FAIL
+
+source ~/.bash_profile
+module purge
+module add apps/miniconda/3.6.1
+
+conda activate prot_study
+python format_results.py P01160.fasta asaq.pred P01160.pssm P01160.txt
+(prot_study) [dennismandere@sclogin0 pred_result]$ cat format_results.py
+# This file is used to parse the predictive results from ASAquick and MMseqs2
+# Developer: Bi Zhao
+# Output file has
+# Column 1: Index
+# Column 2: Amino Acid sequence
+# Column 3: 10 level conservation, 0 means lowest and 9 means highest
+# Column 4: Conservation score
+# Column 5: Binary Solvent Accessibility, 1= buried, 0=exposed
+# Column 6: Preponsity of solvent accessibility
+# run: python format_results.py seqfile asaqPredfile pssmfile outputfile
+# numpy-1.19.5
+# pandas-1.4.4
+
+import numpy as np
+import pandas as pd
+import os
+import sys
+
+ASAquick_threshold = 0.16
+mmseq1 = 1.43
+mmseq2 = 1.89
+mmseq3 = 2.17
+mmseq4 = 2.34
+mmseq5 = 2.55
+mmseq6 = 2.67
+mmseq7 = 2.85
+mmseq8 = 2.96
+mmseq9 = 3.24
+mmseq10 = 4.40
+
+#the AA_index used to normalize ASA raw data
+max_value = {"A":129,
+             "R":274,
+             "N":195,
+             "D":193,
+             "C":167,
+             "E":223,
+             "Q":225,
+             "G":104,
+             "H":224,
+             "I":197,
+             "L":201,
+             "K":197,
+             "M":224,
+             "F":240,
+             "P":159,
+             "S":155,
+             "T":172,
+             "W":285,
+             "Y":263,
+             "V":174}
+
+#the aa_index used to calculate PSSM and obtain the position specific conservation
+blosum62_bg = { 'A' : 7.4,
+                'R' : 5.2,
+                'N' : 4.5,
+                'D' : 5.3,
+                'C' : 2.5,
+                'Q' : 3.4,
+                'E' : 5.4,
+                'G' : 7.4,
+                'H' : 2.6,
+                'I' : 6.8,
+                'L' : 9.9,
+                'K' : 5.8,
+                'M' : 2.5,
+                'F' : 4.7,
+                'P' : 3.9,
+                'S' : 5.7,
+                'T' : 5.1,
+                'W' : 1.3,
+                'Y' : 3.2,
+                'V' : 7.3  }
+
+bbg_AAs = list(blosum62_bg.keys())
+tot = sum(blosum62_bg.values())
+blosum62_bg = np.array([blosum62_bg[k] / tot for k in blosum62_bg])
+
+#function to calculate PSSM
+def calc_pssm_freq_df(pssm_df):
+    df = pssm_df[bbg_AAs]
+    freq = np.exp(df) * blosum62_bg
+    #freq_sum = np.sum(freq,axis=1)
+    return np.array(freq)/np.sum(freq, axis=1)[:,np.newaxis]
+
+def calc_relative_entropy(pssm_df):
+    df = calc_pssm_freq_df(pssm_df)
+    cons = np.sum(df*np.log(df/blosum62_bg), axis=1)
+    return cons
+
+def format_mmseq(filename):
+    pssm_df = pd.read_csv(filename, sep="\t", skiprows=1)
+    #print (len(pssm_df))
+    res = calc_relative_entropy(pssm_df)
+    deci = []
+    score = []
+    for t in res:
+        score.append(str("{:.2f}".format(t)))
+        if t <= mmseq1:
+            deci.append("0")
+        elif mmseq1<t<=mmseq2:
+            deci.append("1")
+        elif mmseq2<t<=mmseq3:
+            deci.append("2")
+        elif mmseq3<t<=mmseq4:
+            deci.append("3")
+        elif mmseq4<t<=mmseq5:
+            deci.append("4")
+        elif mmseq5<t<=mmseq6:
+            deci.append("5")
+        elif mmseq6<t<=mmseq7:
+            deci.append("6")
+        elif mmseq7<t<=mmseq8:
+            deci.append("7")
+        elif mmseq8<t<=mmseq9:
+            deci.append("8")
+        elif mmseq9<t<=mmseq10:
+            deci.append("9")
+    return deci, score
+
+def format_ASAquick(filename1,filename2):
+    x = open(filename1, "rt")
+    a = x.read().split("\n")
+    seq = "".join(a[1:]).strip()
+    content = np.loadtxt(filename2, dtype="str")
+    scores = content[:,2]
+    bscores = []
+    value = []
+    for i in range(len(scores)):
+        if seq[i] == "A":
+            v = float(i)/max_value["A"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "R":
+            v = float(i)/max_value["R"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "N":
+            v = float(i)/max_value["N"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "D":
+            v = float(i)/max_value["D"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "C":
+            v = float(i)/max_value["C"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "E":
+            v = float(i)/max_value["E"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "Q":
+            v = float(i)/max_value["Q"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "G":
+            v = float(i)/max_value["G"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "H":
+            v = float(i)/max_value["H"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "I":
+            v = float(i)/max_value["I"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "L":
+            v = float(i)/max_value["L"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "K":
+            v = float(i)/max_value["K"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "M":
+            v = float(i)/max_value["M"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "F":
+            v = float(i)/max_value["F"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "P":
+            v = float(i)/max_value["P"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "S":
+            v = float(i)/max_value["S"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "T":
+            v = float(i)/max_value["T"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "W":
+            v = float(i)/max_value["W"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "Y":
+            v = float(i)/max_value["Y"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+        elif seq[i] == "V":
+            v = float(i)/max_value["V"]
+            if v > 1:
+                value.append("1")
+            else:
+                value.append(str(v))
+            if v < ASAquick_threshold:
+                bscores.append("1")
+            else:
+                bscores.append("0")
+    return seq, bscores, value
+
+def main():
+    seqfile = sys.argv[1]
+    asaqPredfile = sys.argv[2]
+    pssmfile = sys.argv[3]
+    outputfile = sys.argv[4]
+    con_deci, con_score = format_mmseq(pssmfile)
+    seq, asa_bin, asa_score = format_ASAquick(seqfile,asaqPredfile)
+    x = open(outputfile, "wt")
+    for i in range(len(con_deci)):
+        x.write(str(i+1)+"\t"+seq[i]+"\t"+con_deci[i]+"\t"+con_score[i]+"\t"+asa_bin[i]+"\t"+asa_score[i]+"\n")
+
+main()
+
+(prot_study) [dennismandere@sclogin0 pred_result]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd MMseqs/
+(prot_study) [dennismandere@sclogin0 MMseqs]$ vim run_mmseqs.sh
+(prot_study) [dennismandere@sclogin0 MMseqs]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ vim run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sbatch wget -c https://rest.uniprot.org/uniprotkb/P01160.fasta
+sbatch: error: This does not look like a batch script.  The first
+sbatch: error: line must start with #! followed by the path to an interpreter.
+sbatch: error: For instance: #!/bin/sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./bin/ASAquick P01160.fasta
+At line 694 of file genn2wind.h (unit = 33, file = './asaq.P01160.fasta/blosnorm')
+Fortran runtime error: End of file
+Relative ASA (rasa) prediction in asaq.P01160.fasta/rasaq.pred, last colums is STDEV
+./bin/ASAquick: line 31: /home/d/dennismandere/bin/mkminmax2asa: Permission denied
+ASA prediction in asaq.P01160.fasta/asaq.pred, last colums is error estimate in percent
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ wget -c https://rest.uniprot.org/uniprotkb/P16860.fasta
+--2023-04-18 23:02:37--  https://rest.uniprot.org/uniprotkb/P16860.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 224 [text/plain]
+Saving to: 'P16860.fasta'
+
+P16860.fasta                              100%[=====================================================================================>]     224  --.-KB/s    in 0s
+
+2023-04-18 23:02:37 (41.0 MB/s) - 'P16860.fasta' saved [224/224]
+
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./bin/ASAquick P16860.fasta
+./bin/ASAquick: line 17: /home/d/dennismandere/bin/fasta2dsspget.pl: Permission denied
+./bin/ASAquick: line 20: /home/d/dennismandere/bin/mkasa.minmax: Permission denied
+./bin/ASAquick: line 22: /home/d/dennismandere/bin/mkaacomp: Permission denied
+./bin/ASAquick: line 23: /home/d/dennismandere/bin/mkdimercomp: Permission denied
+./bin/ASAquick: line 24: /home/d/dennismandere/bin/mkblosnorm: Permission denied
+./bin/ASAquick: line 25: /home/d/dennismandere/bin/mkphyspar: Permission denied
+At line 694 of file genn2wind.h (unit = 33, file = './asaq.P16860.fasta/blosnorm')
+Fortran runtime error: End of file
+Relative ASA (rasa) prediction in asaq.P16860.fasta/rasaq.pred, last colums is STDEV
+./bin/ASAquick: line 31: /home/d/dennismandere/bin/mkminmax2asa: Permission denied
+ASA prediction in asaq.P16860.fasta/asaq.pred, last colums is error estimate in percent
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ wget -c https://rest.uniprot.org/uniprotkb/P23582.fasta
+--2023-04-18 23:02:38--  https://rest.uniprot.org/uniprotkb/P23582.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 220 [text/plain]
+Saving to: 'P23582.fasta'
+
+P23582.fasta                              100%[=====================================================================================>]     220  --.-KB/s    in 0s
+
+2023-04-18 23:02:39 (43.5 MB/s) - 'P23582.fasta' saved [220/220]
+
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./bin/ASAquick P23582.fasta
+./bin/ASAquick: line 17: /home/d/dennismandere/bin/fasta2dsspget.pl: Permission denied
+./bin/ASAquick: line 20: /home/d/dennismandere/bin/mkasa.minmax: Permission denied
+./bin/ASAquick: line 22: /home/d/dennismandere/bin/mkaacomp: Permission denied
+./bin/ASAquick: line 23: /home/d/dennismandere/bin/mkdimercomp: Permission denied
+./bin/ASAquick: line 24: /home/d/dennismandere/bin/mkblosnorm: Permission denied
+./bin/ASAquick: line 25: /home/d/dennismandere/bin/mkphyspar: Permission denied
+At line 694 of file genn2wind.h (unit = 33, file = './asaq.P23582.fasta/blosnorm')
+Fortran runtime error: End of file
+Relative ASA (rasa) prediction in asaq.P23582.fasta/rasaq.pred, last colums is STDEV
+./bin/ASAquick: line 31: /home/d/dennismandere/bin/mkminmax2asa: Permission denied
+ASA prediction in asaq.P23582.fasta/asaq.pred, last colums is error estimate in percent
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ wget -c https://rest.uniprot.org/uniprotkb/P01160.fasta
+--2023-04-18 23:03:29--  https://rest.uniprot.org/uniprotkb/P01160.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./bin/ASAquick P01160.fasta
+At line 694 of file genn2wind.h (unit = 33, file = './asaq.P01160.fasta/blosnorm')
+Fortran runtime error: End of file
+Relative ASA (rasa) prediction in asaq.P01160.fasta/rasaq.pred, last colums is STDEV
+./bin/ASAquick: line 31: /home/d/dennismandere/bin/mkminmax2asa: Permission denied
+ASA prediction in asaq.P01160.fasta/asaq.pred, last colums is error estimate in percent
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ wget -c https://rest.uniprot.org/uniprotkb/P16860.fasta
+--2023-04-18 23:03:30--  https://rest.uniprot.org/uniprotkb/P16860.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./bin/ASAquick P16860.fasta
+At line 694 of file genn2wind.h (unit = 33, file = './asaq.P16860.fasta/blosnorm')
+Fortran runtime error: End of file
+Relative ASA (rasa) prediction in asaq.P16860.fasta/rasaq.pred, last colums is STDEV
+./bin/ASAquick: line 31: /home/d/dennismandere/bin/mkminmax2asa: Permission denied
+ASA prediction in asaq.P16860.fasta/asaq.pred, last colums is error estimate in percent
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ wget -c https://rest.uniprot.org/uniprotkb/P23582.fasta
+--2023-04-18 23:03:31--  https://rest.uniprot.org/uniprotkb/P23582.fasta
+Resolving rest.uniprot.org (rest.uniprot.org)... 193.62.193.81
+Connecting to rest.uniprot.org (rest.uniprot.org)|193.62.193.81|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ./bin/ASAquick P23582.fasta
+At line 694 of file genn2wind.h (unit = 33, file = './asaq.P23582.fasta/blosnorm')
+Fortran runtime error: End of file
+Relative ASA (rasa) prediction in asaq.P23582.fasta/rasaq.pred, last colums is STDEV
+./bin/ASAquick: line 31: /home/d/dennismandere/bin/mkminmax2asa: Permission denied
+ASA prediction in asaq.P23582.fasta/asaq.pred, last colums is error estimate in percent
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ sbatch run_asaquick.sh
+Submitted batch job 9057
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd MMseqs/
+(prot_study) [dennismandere@sclogin0 MMseqs]$ sbatch run_mmseqs.sh
+Submitted batch job 9058
+(prot_study) [dennismandere@sclogin0 MMseqs]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd pred_result/
+(prot_study) [dennismandere@sclogin0 pred_result]$ vim run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ vim run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ sbatch run_parse.sh
+Submitted batch job 9059
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  asaq.pred  format_results.py  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd ..
+(prot_study) [dennismandere@sclogin0 ~]$ cd protein_analysis/
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd GENN+ASAquick/
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ ls
+16VPA.dsspget  GENN     MMseqs        P16860.fasta  README             asaq.P16860.fasta  bin       install  run.out
+ASAquick       LICENSE  P01160.fasta  P23582.fasta  asaq.P01160.fasta  asaq.P23582.fasta  gennstld  run.err  run_asaquick.sh
+(prot_study) [dennismandere@sclogin0 GENN+ASAquick]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd MMseqs/
+(prot_study) [dennismandere@sclogin0 MMseqs]$ ls
+P01160        P01160.pssm  P16860.fasta  P23582        P23582.pssm         dataset    resultDB  run.out        tmp
+P01160.fasta  P16860       P16860.pssm   P23582.fasta  create_mmseqsDB.sh  profileDB  run.err   run_mmseqs.sh
+(prot_study) [dennismandere@sclogin0 MMseqs]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cp ./mmseqs2/16860.pssm ./pred_result
+cp: cannot stat './mmseqs2/16860.pssm': No such file or directory
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cp ./MMseqs/16860.pssm ./pred_result
+cp: cannot stat './MMseqs/16860.pssm': No such file or directory
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd pred_result/
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  asaq.pred  format_results.py  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ cat asaq.pred
+(prot_study) [dennismandere@sclogin0 pred_result]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd MMseqs/
+(prot_study) [dennismandere@sclogin0 MMseqs]$ cp ./MMseqs/P16860.pssm ./pred_result
+cp: cannot stat './MMseqs/P16860.pssm': No such file or directory
+(prot_study) [dennismandere@sclogin0 MMseqs]$ cd ..
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cp ./MMseqs/P16860.pssm ./pred_result
+(prot_study) [dennismandere@sclogin0 protein_analysis]$ cd pred_result/
+(prot_study) [dennismandere@sclogin0 pred_result]$ ls
+P01160.pssm  P16860.pssm  asaq.pred  format_results.py  run.err  run.out  run_parse.sh
+(prot_study) [dennismandere@sclogin0 pred_result]$ cd
+(prot_study) [dennismandere@sclogin0 ~]$ cd ..
+(prot_study) [dennismandere@sclogin0 d]$ cd protein_analysis
+-bash: cd: protein_analysis: No such file or directory
+(prot_study) [dennismandere@sclogin0 d]$ cd ..
+(prot_study) [dennismandere@sclogin0 home]$ cd protein_analysis
+-bash: cd: protein_analysis: No such file or directory
+(prot_study) [dennismandere@sclogin0 home]$
+
